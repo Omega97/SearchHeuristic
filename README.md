@@ -7,6 +7,7 @@ The goal is to identify which random variables provided have a reasonably high e
 By calling the run_search_iter method you can get the status of the search after each iteration.
 
 ```
+elements = [callable_1, ..., callable_n]
 search = Search(elements)
 search_iter = search.run_search_iter(time_limit=time_limit, c=c)
 for dct in search_iter:
